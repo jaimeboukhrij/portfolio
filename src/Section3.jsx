@@ -1,6 +1,7 @@
 import moviesPage from "./assets/filmbg.png"
 import canvas from "./assets/canvas.png"
 import gymLion from "./assets/gymLion.jpg"
+import blablacar from "./assets/BlaBlacar.png"
 
 const Section3 = () => {
 
@@ -9,6 +10,17 @@ const Section3 = () => {
         <section className="section3">
             <h3>Projects</h3>
             <div className="flex">
+
+                <section class="record" >
+                    <div id="record2" class="record-display" style={{ backgroundImage: `url(${blablacar})` }}></div>
+                    <div class="record-desc">
+                        <h4>BlaBlaCar Page</h4>
+                        <p>project not finished yet...</p>
+                        {/* <button onClick={() => window.open("https://moviespagejb.netlify.app/", '_blank')}>Web Page</button> */}
+                        <button onClick={() => window.open("https://github.com/jaimeboukhrij/BlablaCarCLient", "_blank")}>Client</button>
+                        <button onClick={() => window.open("https://github.com/jaimeboukhrij/BlablaCarServer", "_blank")}>Server</button>
+                    </div>
+                </section>
 
                 <section class="record" onClick={() => window.open("https://moviespagejb.netlify.app/", '_blank')}>
                     <div id="record2" class="record-display" style={{ backgroundImage: `url(${moviesPage})` }}></div>
