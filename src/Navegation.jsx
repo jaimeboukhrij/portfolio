@@ -37,7 +37,7 @@ function Navegation({ activeSection }) {
                                 color: activeSection === 'section3' ? 'white' : 'grey',
                                 fontWeight: activeSection === 'section3' ? '600' : '0'
                             }}
-                            onClick={() => window.scrollTo(0, 1400)}
+                            onClick={() => window.scrollTo(0, 1700)}
                         >
                             Projects
                         </Nav.Link>
