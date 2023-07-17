@@ -15,8 +15,8 @@ const Section3 = () => {
                     <div id="record2" class="record-display" style={{ backgroundImage: `url(${blablacar})` }}></div>
                     <div class="record-desc">
                         <h4>BlaBlaCar Page</h4>
-                        <p>project not finished yet...</p>
-                        {/* <button onClick={() => window.open("https://moviespagejb.netlify.app/", '_blank')}>Web Page</button> */}
+                        <p>React | NodeJS | JavaScript | Express | MongoDB ...</p>
+                        <button onClick={() => window.open("https://blablacarjb.netlify.app/", '_blank')}>Web Page</button>
                         <button onClick={() => window.open("https://github.com/jaimeboukhrij/BlablaCarCLient", "_blank")}>Client</button>
                         <button onClick={() => window.open("https://github.com/jaimeboukhrij/BlablaCarServer", "_blank")}>Server</button>
                     </div>
