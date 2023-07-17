@@ -14,7 +14,7 @@ function Navegation({ activeSection }) {
                     <Nav>
                         <Nav.Link
                             style={{
-                                color: activeSection === 'section1' ? 'white' : 'grey',
+                                color: activeSection === 'section1' ? '#2C5CC7' : 'grey',
                                 fontWeight: activeSection === 'section1' ? '600' : '0'
                             }}
                             onClick={() => window.scrollTo(0, 0)}
@@ -24,7 +24,7 @@ function Navegation({ activeSection }) {
 
                         <Nav.Link
                             style={{
-                                color: activeSection === 'section2' ? 'white' : 'grey',
+                                color: activeSection === 'section2' ? '#2C5CC7' : 'grey',
                                 fontWeight: activeSection === 'section2' ? '600' : '0'
                             }}
                             onClick={() => window.scrollTo(0, 750)}
@@ -34,7 +34,7 @@ function Navegation({ activeSection }) {
 
                         <Nav.Link
                             style={{
-                                color: activeSection === 'section3' ? 'white' : 'grey',
+                                color: activeSection === 'section3' ? '#2C5CC7' : 'grey',
                                 fontWeight: activeSection === 'section3' ? '600' : '0'
                             }}
                             onClick={() => window.scrollTo(0, 1900)}
@@ -44,7 +44,7 @@ function Navegation({ activeSection }) {
 
                         <Nav.Link
                             style={{
-                                color: activeSection === 'section4' ? 'white' : 'grey',
+                                color: activeSection === 'section4' ? '#2C5CC7' : 'grey',
                                 fontWeight: activeSection === 'section4' ? '600' : '0'
                             }}
                             onClick={() => window.scrollTo(0, 9000)}
